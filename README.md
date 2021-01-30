@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+## Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Typescript
+- Prettier
+- Ant design with customization
+- Cypress
+- Router
+- Translations
+- React Query
+- Husky
+- Nivo charts
 
 ## Available Scripts
 

@@ -1,26 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from 'react';
+import { Button } from 'antd';
 
-function App() {
+import styles from './App.module.less';
+
+const App: FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className={styles.app}>
+      <Button type="primary">Hello, Ant Design!</Button>
+      <a href="foo.bar">I'm a link. Click me, please!</a>
+    </main>
   );
-}
+};
 
 export default App;

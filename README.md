@@ -3,12 +3,13 @@
 - Typescript
 - Prettier
 - Ant design with customization
-- Cypress
 - Router
+- Cypress
 - Translations
 - React Query
 - Husky
 - Nivo charts
+- React hook forms
 
 ## Available Scripts
 
